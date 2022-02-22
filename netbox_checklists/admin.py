@@ -3,4 +3,4 @@ from .models import Checklist
 
 @admin.register(Checklist)
 class ChecklistAdmin(admin.ModelAdmin):
-    list_display = ['checklist_name']
+    list_display = ('checklist_name',)
